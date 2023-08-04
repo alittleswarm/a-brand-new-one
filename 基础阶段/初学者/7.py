@@ -1,3 +1,4 @@
+# 设计⼀个商品类，它具有的私有数据成员是商品序号、商品名、单价、总数量和剩余数量
 class Item:
     def __init__(self, id: int = 0, name: str = None, price: float = 0, leftones: int = 0, total: int = 0):
         self._id = id

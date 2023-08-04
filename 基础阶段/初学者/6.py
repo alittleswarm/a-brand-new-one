@@ -1,3 +1,4 @@
+# 创建一个函数，这个函数可以统计一个只有数字的列表中所有数字的个数，通过字典方式返回
 from collections import OrderedDict
 def cnt_num(list):
     return_dict={}
